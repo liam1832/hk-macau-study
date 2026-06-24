@@ -426,7 +426,14 @@ em { font-style: normal; color: var(--gold-deep); }
 
 .case-card__note { font-size: 0.86rem; color: var(--on-navy-dim); line-height: 1.6; border-top: 1px solid var(--light-line); padding-top: 14px; margin-top: auto; }
 
-.cases__disclaimer { text-align: center; margin-top: clamp(48px, 6vw, 72px); font-size: 0.85rem; color: var(--on-navy-dim); }
+.cases__note {
+  max-width: 780px; margin: clamp(40px, 5vw, 56px) auto 0; text-align: center;
+  color: var(--on-navy); font-size: 1rem; line-height: 1.75;
+  padding: 16px 24px; background: var(--gold-tint);
+  border: 1px solid var(--gold-line); border-radius: var(--radius);
+}
+.cases__note strong { color: var(--gold); font-weight: 600; }
+.cases__disclaimer { text-align: center; margin-top: clamp(28px, 4vw, 40px); font-size: 0.85rem; color: var(--on-navy-dim); }
 
 /* =========================================================
    4. 真实 Offer 墙（深色面）
